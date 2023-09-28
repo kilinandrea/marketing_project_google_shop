@@ -1,0 +1,1 @@
+# marketing_project_google_shop
