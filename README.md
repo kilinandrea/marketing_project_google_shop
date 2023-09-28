@@ -63,7 +63,7 @@ As part of data preparation, we examined any outliers for `avg_time_spent_minute
 | Lower bound    | -23.4425|
 | Upper bound    | 63.1375 |
 
-![viz](https://github.com/TuringCollegeSubmissions/akilin-ABP.2/blob/main/M4S2%20-%20Scatterplot.png) 
+![viz](https://github.com/kilinandrea/marketing_project_google_shop/blob/main/M2S2%20-%20Scatterplot.png) 
 
 Since **none of the values** are outside of the bounds, we continue including all values in our correlation and regression analysis.
 
@@ -76,7 +76,7 @@ Since **none of the values** are outside of the bounds, we continue including al
 
 2. **Significance**: The correlation coefficient is statistically significant _(p < 0.05)_, which suggests that the observed correlation is unlikely to be due to random chance. In other words, there is a significant association between these two variables.
 
-![viz](https://github.com/TuringCollegeSubmissions/akilin-ABP.2/blob/main/M4S2%20scatterplot%20correlation.png) 
+![viz](https://github.com/kilinandrea/marketing_project_google_shop/blob/main/M4S2%20scatterplot%20correlation.png) 
 
 ## Linear Regression Analysis
 
@@ -121,7 +121,7 @@ OBS: for hypotheses A and B, interactive dashboard can be found on [Tableau here
 #### Hypothesis A 
 *Users spend more time on our e-commerce site on certain weekdays.*
 
-![viz](https://github.com/TuringCollegeSubmissions/akilin-ABP.2/blob/main/M4S2%20DOW%20avg%20time%20spent.png)
+![viz](https://github.com/kilinandrea/marketing_project_google_shop/blob/main/M4S2%20DOW%20avg%20time%20spent.png)
 
 This hypothesis is **accepted** based on the results and seen on the above visualization.
 
@@ -129,14 +129,14 @@ Why does this matter? Well, according to our linear regression, we know that tim
 
 After a quick look into average amount spent on certain weekdays, we notice that there is possibly better correlation between the two variables in the case of `not campaign`than `campaign`:
 
-![viz](https://github.com/TuringCollegeSubmissions/akilin-ABP.2/blob/main/M4S2%20DOW%20avg%20amount%20spent.png)
+![viz](https://github.com/kilinandrea/marketing_project_google_shop/blob/main/M4S2%20DOW%20avg%20amount%20spent.png)
 
 we continue into the next hypothesis:
 
 #### Hypothesis B
 *In the context of spending time on our e-commerce site, users have different purchasing behavior when they come from a `campaign` versus `not_campaign`.*
 
-![viz](https://github.com/TuringCollegeSubmissions/akilin-ABP.2/blob/main/M4S2%20Daily%20dynamic.png)
+![viz](https://github.com/kilinandrea/marketing_project_google_shop/blob/main/M4S2%20Daily%20dynamic.png)
 
 What we observe here is that the hypothesis is **accepted** because users behaved differently when they originated from a campaign versus not a campaign: 
 - When users do not come from a campaign, their purchasing behavior is shown as more predictable, the peaks and lows are less erratic. 
@@ -180,7 +180,7 @@ FROM
   group by campaign_category
 ```
 In our A/B test `A` stands for `non-campaign` while `B` for `campaign`
-![A/B Test](https://github.com/TuringCollegeSubmissions/akilin-ABP.2/blob/main/AB%20Test%20-%20M4S2.png)
+![A/B Test](https://github.com/kilinandrea/marketing_project_google_shop/blob/main/AB%20Test%20-%20M4S2.png)
 
 Result shows that, although the conversion rate is considerably higher where visitors come from being exposed to a campaign, versus visitors who do not - statistically it is not more significant. 
 
@@ -202,5 +202,5 @@ In conclusion, we advise:
 - having an "always-on" campaign to raise awareness and fill the top of the funnel
 
   
-**Presentation can be found**: [here](https://github.com/TuringCollegeSubmissions/akilin-ABP.2/blob/main/Presentation%20-%20M4S2%20-%20Graded%20-%20Website%20Visitor%20Analysis%20and%20Campaign%20Impact.pdf)
+**Presentation can be found**: [here](https://github.com/kilinandrea/marketing_project_google_shop/blob/main/Presentation%20-%20M4S2%20-%20Graded%20-%20Website%20Visitor%20Analysis%20and%20Campaign%20Impact.pdf)
 
